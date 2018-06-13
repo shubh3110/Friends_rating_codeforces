@@ -88,3 +88,4 @@ df=df.sort_values('Current_Rating',ascending=[False])
 df.insert(0, 'Rank', range(1,1+len(df)))
 df.to_csv('Rank.csv', encoding='utf-8', index=False)
 
+
